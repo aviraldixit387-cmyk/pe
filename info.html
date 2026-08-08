@@ -1,1 +1,93 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Details - MediaHub</title><link rel="stylesheet" href="style.css"></head><body><header class="header"><a class="logo" href="index.html">Media<span>Hub</span></a><div class="search-container"><input id="searchInput" placeholder="Search movies, shows..." autocomplete="off"><button id="searchBtn">🔍</button></div><button class="menu-btn" id="menuBtn">☰</button><nav id="navMenu"><a href="index.html">Home</a><a href="index.html#latest">Latest</a></nav></header><main><section id="infoPage" class="info-page"></section></main><footer>© 2026 MediaHub</footer><script src="data.js"></script><script src="info.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Details - MediaHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        Media<span>Hub</span>
+    </a>
+
+
+    <div class="search-container">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search movies, shows..."
+        >
+
+        <button id="searchBtn">
+            🔍
+        </button>
+
+    </div>
+
+
+    <button
+        class="menu-btn"
+        id="menuBtn"
+    >
+        ☰
+    </button>
+
+
+    <nav id="navMenu">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="#">
+            Latest
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<!-- IMPORTANT: JavaScript puts the movie information here -->
+
+<main>
+
+    <div
+        id="infoPage"
+        class="info-page"
+    >
+
+        <!-- Movie information will appear here -->
+
+    </div>
+
+</main>
+
+
+
+<footer>
+
+    © 2026 MediaHub
+
+</footer>
+
+
+<!-- IMPORTANT: info.js must be loaded AFTER infoPage exists -->
+
+<script src="info.js"></script>
+
+</body>
+
+</html>
