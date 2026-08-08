@@ -3,6 +3,6 @@ const items=[
 {id:'supergirl',title:'Supergirl',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfQNHdfSP72XlwLJV02ro-_zSXygvv9hhFB5cSlnpdA&s=10',description:'Explore information, updates and details about Supergirl.',genre:'Superhero',year:'2026',status:'Available'},
 {id:'gatta-kusthi-2',title:'Gatta Kusthi 2',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoODIhdTWgkS35k0bohgVj2Mf9FIX914mw0GRCIzWVAQ&s=10',description:'Information, updates and details about Gatta Kusthi 2.',genre:'Sports',year:'2026',status:'Available'},
 {id:'dc',title:'DC',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDw_6scwls8bOQxyCxM7ksDRUs-svwvbZXr016NFd9g&s=10',description:'Latest information and updates about the DC project.',genre:'Action',year:'2026',status:'Available'},
-{id:'ohh-my-dog',title:'Ohh My Dog',image:'https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=800&q=80',description:'Information and details about Ohh My Dog.',genre:'Drama',year:'2026',status:'Available'},
+{id:'ohh-my-dog',title:'Ohh My Dog',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8sFIz6uLTVqoPKU_JN0xhsBYfoUxYAtOkw8dtZaj-6Q&s=10',description:'Information and details about Ohh My Dog.',genre:'Drama',year:'2026',status:'Available'},
 {id:'indias-got-latent',title:"India's Got Latent",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dECrkUxrY9yCFFIHiEF8htbGyRxqp-Xpn5qZZM5F8Q&s=10',description:"Information and updates about India's Got Latent.",genre:'Comedy',year:'2026',status:'Available'}
 ];
