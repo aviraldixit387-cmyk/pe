@@ -65,9 +65,37 @@ const movies = {
 
         year: "2026",
 
-        status: "Upcoming",
+        status: "Available",
 
-        versions: []
+        versions: [
+            {
+                quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
+                resolution: "480p",
+                size: "550MB",
+                link: "https://shrtslug.biz/SpiderManBrandNewDay480p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
+                resolution: "720p",
+                size: "1.2GB",
+                link: "https://shrtslug.biz/SpiderManBrandNewDay720p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
+                resolution: "1080p",
+                size: "2.4GB",
+                link: "https://shrtslug.biz/SpiderManBrandNewDay1080p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
+                resolution: "1080p HQ",
+                size: "10.4GB",
+                link: "https://shrtslug.biz/SpiderManBND1080p1"
+            }
+        ]
 
     },
 
