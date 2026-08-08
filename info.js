@@ -1,13 +1,14 @@
-const items = [
-    {
-        id: "dc",
+const movies = {
+
+    "dc": {
 
         title: "DC (2026)",
 
-        image: "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?auto=format&fit=crop&w=900&q=80",
+        image:
+            "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?auto=format&fit=crop&w=900&q=80",
 
         description:
-            "Information about DC (2026), including languages, quality options and other details.",
+            "DC (2026) movie information, available qualities, languages and other details.",
 
         genre: "Superhero",
 
@@ -15,44 +16,47 @@ const items = [
 
         status: "Upcoming",
 
-        links: [
+        versions: [
+
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "480p",
                 size: "550MB",
-                url: "#"
+                link: "#"
             },
 
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "720p",
                 size: "1.2GB",
-                url: "#"
+                link: "#"
             },
 
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "1080p",
                 size: "2.4GB",
-                url: "#"
+                link: "#"
             },
 
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "1080p HQ",
                 size: "10.4GB",
-                url: "#"
+                link: "#"
             }
+
         ]
+
     },
 
 
-    {
-        id: "spiderman",
+    "spiderman": {
 
         title: "Spider-Man: Brand New Day",
 
-        image: "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=900&q=80",
+        image:
+            "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=900&q=80",
 
         description:
             "Latest information about Spider-Man: Brand New Day.",
@@ -63,16 +67,17 @@ const items = [
 
         status: "Upcoming",
 
-        links: []
+        versions: []
+
     },
 
 
-    {
-        id: "supergirl",
+    "supergirl": {
 
         title: "Supergirl",
 
-        image: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?auto=format&fit=crop&w=900&q=80",
+        image:
+            "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?auto=format&fit=crop&w=900&q=80",
 
         description:
             "Latest information about Supergirl.",
@@ -83,85 +88,64 @@ const items = [
 
         status: "Upcoming",
 
-        links: []
-    },
+        versions: []
 
-
-    {
-        id: "gatta-kusthi-2",
-
-        title: "Gatta Kusthi 2",
-
-        image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=900&q=80",
-
-        description:
-            "Latest information about Gatta Kusthi 2.",
-
-        genre: "Sports",
-
-        year: "2026",
-
-        status: "Upcoming",
-
-        links: []
-    },
-
-
-    {
-        id: "ohh-my-dog",
-
-        title: "Ohh My Dog",
-
-        image: "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80",
-
-        description:
-            "Latest information about Ohh My Dog.",
-
-        genre: "Drama",
-
-        year: "2026",
-
-        status: "Available",
-
-        links: []
     }
-];
+
+};
 
 
 
-/* =========================
-   GET MOVIE ID
-========================= */
+/* =================================
+   GET ID FROM URL
+================================= */
 
-const params = new URLSearchParams(
-    window.location.search
-);
+const urlParams =
+    new URLSearchParams(
+        window.location.search
+    );
 
-const id = params.get("id");
 
-const item = items.find(
-    movie => movie.id === id
-);
+const movieId =
+    urlParams.get("id");
+
+
+console.log("Movie ID:", movieId);
+
+
+
+/* =================================
+   FIND MOVIE
+================================= */
+
+const movie =
+    movies[movieId];
+
 
 const infoPage =
-    document.getElementById("infoPage");
+    document.getElementById(
+        "infoPage"
+    );
 
 
 
-/* =========================
+/* =================================
    MOVIE NOT FOUND
-========================= */
+================================= */
 
-if (!item) {
+if (!movie) {
 
     infoPage.innerHTML = `
 
         <div class="not-found">
 
-            <h1>Item Not Found</h1>
+            <h1>
+                Movie Not Found
+            </h1>
 
             <p>
-                The requested page could not be found.
+                No movie was found for:
+                ${movieId || "unknown"}
             </p>
 
             <br>
@@ -181,133 +165,61 @@ if (!item) {
 
 
 
-/* =========================
-   DISPLAY MOVIE
-========================= */
+/* =================================
+   SHOW MOVIE
+================================= */
 
 else {
 
     document.title =
-        `${item.title} - MediaHub`;
+        movie.title + " - MediaHub";
 
 
-    /* =========================
-       DOWNLOAD / QUALITY LIST
-    ========================= */
+    /* Movie information */
 
-    let linksHTML = "";
-
-
-    if (item.links.length > 0) {
-
-        linksHTML = `
-
-            <section class="download-section">
-
-                <h2>Available Versions</h2>
-
-                <div class="download-list">
-
-                    ${item.links.map(link => `
-
-                        <div class="download-item">
-
-                            <div class="download-title">
-
-                                ${item.title}
-
-                                <span>
-                                    [${link.quality}]
-                                </span>
-
-                                ${link.resolution}
-
-                                <b>
-                                    [${link.size}]
-                                </b>
-
-                            </div>
-
-
-                            <a
-                                href="${link.url}"
-                                class="download-btn"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-
-                                <span>⇩</span>
-
-                                DOWNLOAD LINKS
-
-                                <span>⇩</span>
-
-                            </a>
-
-                        </div>
-
-                    `).join("")}
-
-                </div>
-
-            </section>
-
-        `;
-
-    }
-
-
-    /* =========================
-       COMPLETE INFO PAGE
-    ========================= */
-
-    infoPage.innerHTML = `
+    let html = `
 
         <div class="info-container">
 
 
-            <!-- POSTER -->
-
             <div>
 
                 <img
+                    src="${movie.image}"
+                    alt="${movie.title}"
                     class="info-poster"
-                    src="${item.image}"
-                    alt="${item.title}"
                 >
 
             </div>
 
 
 
-            <!-- DETAILS -->
-
             <div class="info-details">
 
                 <h1>
-                    ${item.title}
+                    ${movie.title}
                 </h1>
 
 
                 <div class="info-meta">
 
                     <span class="badge">
-                        ${item.genre}
+                        ${movie.genre}
                     </span>
 
                     <span class="badge">
-                        ${item.year}
+                        ${movie.year}
                     </span>
 
                     <span class="badge">
-                        ${item.status}
+                        ${movie.status}
                     </span>
 
                 </div>
 
 
                 <p>
-                    ${item.description}
+                    ${movie.description}
                 </p>
 
 
@@ -322,24 +234,122 @@ else {
 
         </div>
 
-
-        ${linksHTML}
-
     `;
+
+
+
+    /* =================================
+       VERSION / DOWNLOAD SECTION
+    ================================= */
+
+    if (
+        movie.versions &&
+        movie.versions.length > 0
+    ) {
+
+        html += `
+
+            <section class="download-section">
+
+                <h2>
+                    Available Versions
+                </h2>
+
+
+                <div class="download-list">
+
+        `;
+
+
+        movie.versions.forEach(
+            version => {
+
+                html += `
+
+                    <div
+                        class="download-item"
+                    >
+
+                        <div
+                            class="download-title"
+                        >
+
+                            ${movie.title}
+
+                            <span>
+                                [${version.quality}]
+                            </span>
+
+                            ${version.resolution}
+
+                            <b>
+                                [${version.size}]
+                            </b>
+
+                        </div>
+
+
+                        <a
+                            href="${version.link}"
+                            class="download-btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+
+                            <span>
+                                ↓
+                            </span>
+
+                            DOWNLOAD LINKS
+
+                            <span>
+                                ↓
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                `;
+
+            }
+        );
+
+
+        html += `
+
+                </div>
+
+            </section>
+
+        `;
+
+    }
+
+
+
+    /* Put everything on page */
+
+    infoPage.innerHTML = html;
 
 }
 
 
 
-/* =========================
+/* =================================
    MOBILE MENU
-========================= */
+================================= */
 
 const menuBtn =
-    document.getElementById("menuBtn");
+    document.getElementById(
+        "menuBtn"
+    );
+
 
 const navMenu =
-    document.getElementById("navMenu");
+    document.getElementById(
+        "navMenu"
+    );
 
 
 if (menuBtn) {
@@ -359,14 +369,15 @@ if (menuBtn) {
 
 
 
-/* =========================
+/* =================================
    SEARCH
-========================= */
+================================= */
 
 const searchInput =
     document.getElementById(
         "searchInput"
     );
+
 
 const searchBtn =
     document.getElementById(
@@ -374,13 +385,13 @@ const searchBtn =
     );
 
 
-function performSearch() {
+function searchMovie() {
 
-    const search =
+    const query =
         searchInput.value.trim();
 
 
-    if (search === "") {
+    if (query === "") {
 
         window.location.href =
             "index.html";
@@ -391,7 +402,8 @@ function performSearch() {
 
 
     window.location.href =
-        `index.html?search=${encodeURIComponent(search)}`;
+        "index.html?search=" +
+        encodeURIComponent(query);
 
 }
 
@@ -400,7 +412,7 @@ if (searchBtn) {
 
     searchBtn.addEventListener(
         "click",
-        performSearch
+        searchMovie
     );
 
 }
@@ -410,11 +422,13 @@ if (searchInput) {
 
     searchInput.addEventListener(
         "keydown",
-        function(event) {
+        event => {
 
-            if (event.key === "Enter") {
+            if (
+                event.key === "Enter"
+            ) {
 
-                performSearch();
+                searchMovie();
 
             }
 
