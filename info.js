@@ -5,7 +5,7 @@ const movies = {
         title: "DC (2026)",
 
         image:
-            "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?auto=format&fit=crop&w=900&q=80",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDw_6scwls8bOQxyCxM7ksDRUs-svwvbZXr016NFd9g&s=10",
 
         description:
             "DC (2026) movie information, available qualities, languages and other details.",
@@ -14,7 +14,7 @@ const movies = {
 
         year: "2026",
 
-        status: "Upcoming",
+        status: "Released",
 
         versions: [
 
@@ -22,28 +22,28 @@ const movies = {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "480p",
                 size: "550MB",
-                link: "#"
+                link: "https://shrtslug.biz/DC480p"
             },
 
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "720p",
                 size: "1.2GB",
-                link: "#"
+                link: "https://shrtslug.biz/DC720p"
             },
 
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "1080p",
                 size: "2.4GB",
-                link: "#"
+                link: "https://shrtslug.biz/DC1080"
             },
 
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "1080p HQ",
                 size: "10.4GB",
-                link: "#"
+                link: "https://shrtslug.biz/DC1080HQ"
             }
 
         ]
