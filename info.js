@@ -49,7 +49,49 @@ const movies = {
         ]
 
     },
+    
+    "gatta-kusthi-2": {
 
+        title: "Gatta kusthi 2",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoODIhdTWgkS35k0bohgVj2Mf9FIX914mw0GRCIzWVAQ&s=10",
+
+        description:
+            "Information, updates and details about Gatta Kusthi 2.",
+
+        genre: "Sports",
+
+        year: "2026",
+
+        status: "Available",
+
+        versions: [
+
+            {
+                quality: "Multi Audio with EngSubs",
+                resolution: "480p",
+                size: "550MB",
+                link: "https://shrtslug.biz/GattaKusthi480p"
+            },
+
+            {
+                quality: "Multi Audio with EngSubs",
+                resolution: "720p",
+                size: "1.2GB",
+                link: "https://shrtslug.biz/GattaKusthi720p"
+            },
+
+            {
+                quality: "Multi Audio with EngSubs",
+                resolution: "1080p",
+                size: "9.4GB",
+                link: "https://shrtslug.biz/GattaKusthi1080p"
+            }
+            
+        ]
+
+    },
 
     "spiderman": {
 
@@ -99,13 +141,94 @@ const movies = {
 
     },
 
+     "the-odyssey": {
+
+        title: "The Odyssey",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iUTAgZHsH4g3E6IR7O45185m-GsNRKIgRCUJ6SYN9g&s=10",
+
+        description:
+            "Odysseus, king of Ithaca, embarks on a perilous journey to return home after the Trojan War. Crossing the Mediterranean Sea with his fellow soldiers, they soon find themselves battling not only the elements, but an array of deadly obstacles and mythical creatures along the way.",
+
+        genre: "Action / Fantasy",
+
+        year: "2026",
+
+        status: "Available",
+
+        versions: [
+            {
+                quality: "Multi-Audio(Hindi and English)",
+                resolution: "480p",
+                size: "550MB",
+                link: "https://shrtslug.biz/TheOdyssey480p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi and English)",
+                resolution: "720p",
+                size: "1.2GB",
+                link: "https://shrtslug.biz/TheOdyssey720p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi and English)",
+                resolution: "1080p HQ",
+                size: "10.4GB",
+                link: "https://shrtslug.biz/TheOdyssey1080p1"
+            }
+        ]
+
+    },
+
+    "musafir-cafe": {
+
+        title: "Musafir Cafe",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlNd_H7YRo04SL2fBLYrPvfykmfhQYy1-zXcZIFGEZXw&s=10",
+
+        description:
+            "Three travelers lives unexpectedly intertwine. Chander and Sudha share an instant spark. With Preeti, Chander finds steady companionship built on quiet understanding and ease. Which love endures through time, and life journey.",
+
+        genre: "Romance / Drama / Slice-of-life",
+
+        year: "2026",
+
+        status: "Available",
+
+        versions: [
+            {
+                quality: "Multi-Audio(Hindi and English)",
+                resolution: "480p",
+                size: "550MB",
+                link: "https://shrtslug.biz/MusafirCafe480p"
+            },
+
+            {
+                quality: "Multi Audio and EngSubs",
+                resolution: "720p",
+                size: "1.2GB",
+                link: "https://shrtslug.biz/MusafirCafe720p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi and English)",
+                resolution: "1080p",
+                size: "10.4GB",
+                link: "https://shrtslug.biz/MusafirCafe1080p"
+            }
+        ]
+
+    },
 
     "supergirl": {
 
         title: "Supergirl",
 
         image:
-            "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?auto=format&fit=crop&w=900&q=80",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfQNHdfSP72XlwLJV02ro-_zSXygvv9hhFB5cSlnpdA&s=10",
 
         description:
             "Latest information about Supergirl.",
@@ -114,9 +237,37 @@ const movies = {
 
         year: "2026",
 
-        status: "Upcoming",
+        status: "Available",
 
-        versions: []
+        versions: [
+             {
+                quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
+                resolution: "480p",
+                size: "550MB",
+                link: "https://shrtslug.biz/Supergirl480p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
+                resolution: "720p",
+                size: "1.2GB",
+                link: "https://shrtslug.biz/Supergirl720p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
+                resolution: "1080p",
+                size: "2.4GB",
+                link: "https://shrtslug.biz/Supergirl1080p"
+            },
+
+            {
+                quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
+                resolution: "1080p HQ",
+                size: "8.4GB",
+                link: "https://shrtslug.biz/Supergirl1080p1"
+            }
+        ]
 
     }
 
