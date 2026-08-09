@@ -10,7 +10,7 @@ const movies = {
         description:
             "DC (2026) movie information, available qualities, languages and other details.",
 
-        genre: "Superhero",
+        genre: "Action",
 
         year: "2026",
 
@@ -21,7 +21,7 @@ const movies = {
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "480p",
-                size: "550MB",
+                size: "500MB",
                 link: "https://shrtslug.biz/DC480p"
             },
 
@@ -35,14 +35,14 @@ const movies = {
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "1080p",
-                size: "2.4GB",
+                size: "2.8GB",
                 link: "https://shrtslug.biz/DC1080"
             },
 
             {
                 quality: "Hindi (Clean) + Tamil",
                 resolution: "1080p HQ",
-                size: "10.4GB",
+                size: "14.7GB",
                 link: "https://shrtslug.biz/DC1080HQ"
             }
 
@@ -69,23 +69,23 @@ const movies = {
         versions: [
 
             {
-                quality: "Multi Audio with EngSubs",
+                quality: "Multi-Audio(Hindi ORG. + Tamil + Telugu + Malayalam + Kannada)",
                 resolution: "480p",
-                size: "550MB",
+                size: "800MB",
                 link: "https://shrtslug.biz/GattaKusthi480p"
             },
 
             {
-                quality: "Multi Audio with EngSubs",
+                quality: "Multi-Audio(Hindi ORG. + Tamil + Telugu + Malayalam + Kannada)",
                 resolution: "720p",
-                size: "1.2GB",
+                size: "2.3GB",
                 link: "https://shrtslug.biz/GattaKusthi720p"
             },
 
             {
-                quality: "Multi Audio with EngSubs",
+                quality: "Multi-Audio(Hindi ORG. + Tamil + Telugu + Malayalam + Kannada)",
                 resolution: "1080p",
-                size: "9.4GB",
+                size: "9.3GB",
                 link: "https://shrtslug.biz/GattaKusthi1080p"
             }
             
@@ -93,6 +93,78 @@ const movies = {
 
     },
 
+    "ohh-my-dog": {
+
+        title: "Ohh My Dog",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8sFIz6uLTVqoPKU_JN0xhsBYfoUxYAtOkw8dtZaj-6Q&s=10",
+
+        description:
+            "Information and details about Ohh My Dog.",
+
+        genre: "Drama",
+
+        year: "2026",
+
+        status: "Available",
+
+        versions: [
+
+            {
+                quality: "Hindi",
+                resolution: "480p",
+                size: "500MB",
+                link: "https://shrtslug.biz/OhhMyDog480p"
+            },
+
+            {
+                quality: "Hindi",
+                resolution: "720p",
+                size: "1.1GB",
+                link: "https://shrtslug.biz/OhhMyDog720p"
+            },
+
+            {
+                quality: "Hindi",
+                resolution: "1080p",
+                size: "2.5GB",
+                link: "https://shrtslug.biz/OhhMyDog1080p"
+            }
+            
+        ]
+
+    },
+
+    "indias-got-latent": {
+
+        title: "Indias got Latent",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dECrkUxrY9yCFFIHiEF8htbGyRxqp-Xpn5qZZM5F8Q&s=10",
+
+        description:
+            "Information, updates and details about Indias got latent",
+
+        genre: "Comedy",
+
+        year: "2026",
+
+        status: "Available",
+
+        versions: [
+
+            {
+                quality: "Multi Audio with EngSubs",
+                resolution: "480p",
+                size: "350MB",
+                link: "https://shrtslug.biz/IndiasGotLatentBonus1"
+            },
+            
+        ]
+
+    },
+    
     "spiderman": {
 
         title: "Spider-Man: Brand New Day",
@@ -113,28 +185,28 @@ const movies = {
             {
                 quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
                 resolution: "480p",
-                size: "550MB",
+                size: "620MB",
                 link: "https://shrtslug.biz/SpiderManBrandNewDay480p"
             },
 
             {
                 quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
                 resolution: "720p",
-                size: "1.2GB",
+                size: "1.6GB",
                 link: "https://shrtslug.biz/SpiderManBrandNewDay720p"
             },
 
             {
                 quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
                 resolution: "1080p",
-                size: "2.4GB",
+                size: "3.4GB",
                 link: "https://shrtslug.biz/SpiderManBrandNewDay1080p"
             },
 
             {
                 quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
                 resolution: "1080p HQ",
-                size: "10.4GB",
+                size: "11GB",
                 link: "https://shrtslug.biz/SpiderManBND1080p1"
             }
         ]
@@ -161,23 +233,31 @@ const movies = {
             {
                 quality: "Multi-Audio(Hindi and English)",
                 resolution: "480p",
-                size: "550MB",
+                size: "665MB",
                 link: "https://shrtslug.biz/TheOdyssey480p"
             },
 
             {
                 quality: "Multi-Audio(Hindi and English)",
                 resolution: "720p",
-                size: "1.2GB",
+                size: "1.68GB",
                 link: "https://shrtslug.biz/TheOdyssey720p"
             },
 
             {
                 quality: "Multi-Audio(Hindi and English)",
-                resolution: "1080p HQ",
-                size: "10.4GB",
+                resolution: "1080p",
+                size: "3.75GB",
                 link: "https://shrtslug.biz/TheOdyssey1080p1"
+            },
+            
+            {
+                quality: "Multi-Audio(Hindi and English)",
+                resolution: "1080p HQ",
+                size: "9GB",
+                link: "https://shrtslug.biz/8YZLw"
             }
+            
         ]
 
     },
@@ -202,21 +282,21 @@ const movies = {
             {
                 quality: "Multi-Audio(Hindi and English)",
                 resolution: "480p",
-                size: "550MB",
+                size: "382MB",
                 link: "https://shrtslug.biz/MusafirCafe480p"
             },
 
             {
                 quality: "Multi Audio and EngSubs",
                 resolution: "720p",
-                size: "1.2GB",
+                size: "3.9GB",
                 link: "https://shrtslug.biz/MusafirCafe720p"
             },
 
             {
                 quality: "Multi-Audio(Hindi and English)",
                 resolution: "1080p",
-                size: "10.4GB",
+                size: "8.5GB",
                 link: "https://shrtslug.biz/MusafirCafe1080p"
             }
         ]
@@ -243,14 +323,14 @@ const movies = {
              {
                 quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
                 resolution: "480p",
-                size: "550MB",
+                size: "450MB",
                 link: "https://shrtslug.biz/Supergirl480p"
             },
 
             {
                 quality: "Multi-Audio(Hindi,English,Tamil,Telugu)",
                 resolution: "720p",
-                size: "1.2GB",
+                size: "1.4GB",
                 link: "https://shrtslug.biz/Supergirl720p"
             },
 
