@@ -49,6 +49,84 @@ const movies = {
         ]
 
     },
+
+    "house-of-the-dragon-season-3": {
+
+        title: "House Of The Dragon Season 3",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA15WGf9egvGCjixtcn5LqrdGaf9auAHiWLBbkfxmk4w&s=10",
+
+        description:
+            "House Of The Dragon Season 3 movie information, available qualities, languages and other details.",
+
+        genre: "Action / Drama",
+
+        year: "2026",
+
+        status: "Released",
+
+        versions: [
+
+            {
+                quality: "Episode 1 Multi-Audio(Hindi + English + Tamil + Telugu)",
+                resolution: "720p",
+                size: "720MB",
+                link: "https://shrtslug.biz/HouseOfTheDragonS3E1"
+            },
+            
+            {
+                quality: "Episode 2 Multi-Audio(Hindi + English + Tamil + Telugu)",
+                resolution: "720p",
+                size: "720MB",
+                link: "https://shrtslug.biz/HouseOfTheDragonS3E2"
+            },
+            
+            {
+                quality: "Episode 3 Multi-Audio(Hindi + English + Tamil + Telugu)",
+                resolution: "720p",
+                size: "720MB",
+                link: "https://shrtslug.biz/HouseOfTheDragonS3E3"
+            },
+            
+            {
+                quality: "Episode 4 Multi-Audio(Hindi + English + Tamil + Telugu)",
+                resolution: "720p",
+                size: "720MB",
+                link: "https://shrtslug.biz/HouseOfTheDragonS3E4"
+            },
+            
+            {
+                quality: "Episode 5 Multi-Audio(Hindi + English + Tamil + Telugu)",
+                resolution: "720p",
+                size: "720MB",
+                link: "https://shrtslug.biz/HouseOfTheDragonS3E5"
+            },
+
+            {
+                quality: "Episode 6 Multi-Audio(Hindi + English + Tamil + Telugu)",
+                resolution: "720p",
+                size: "720MB",
+                link: "https://shrtslug.biz/HouseOfTheDragonS3E6"
+            },
+
+            {
+                quality: "Episode 7 Multi-Audio(Hindi + English + Tamil + Telugu)",
+                resolution: "720p",
+                size: "720MB",
+                link: "https://shrtslug.biz/HouseOfTheDragonS3E7"
+            },
+
+            // {
+            //     quality: "Episode 8 Multi-Audio(Hindi + English + Tamil + Telugu)",
+            //     resolution: "720p",
+            //     size: "720MB",
+            //     link: "https://shrtslug.biz/DC1080HQ"
+            // }
+
+        ]
+
+    },
     
     "gatta-kusthi-2": {
 
