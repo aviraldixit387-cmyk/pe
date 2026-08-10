@@ -117,12 +117,12 @@ const movies = {
                 link: "https://shrtslug.biz/HouseOfTheDragonS3E7"
             },
 
-            // {
-            //     quality: "Episode 8 Multi-Audio(Hindi + English + Tamil + Telugu)",
-            //     resolution: "720p",
-            //     size: "720MB",
-            //     link: "https://shrtslug.biz/DC1080HQ"
-            // }
+            {
+                quality: "Episode 8 Multi-Audio(Hindi + English + Tamil + Telugu)",
+                resolution: "720p",
+                size: "720MB",
+                link: "https://shrtslug.biz/HouseOfTheDragonS3E8"
+            }
 
         ]
 
