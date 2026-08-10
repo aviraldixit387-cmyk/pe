@@ -50,6 +50,56 @@ const movies = {
 
     },
 
+     "operation-safed-sagar": {
+
+        title: "Operation Safed Sagar Season 1",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvdg-E3G5s5ZvuZWwbHo12JgknAXTm9ojVrvgQizzVZA&s",
+
+        description:
+            "Operation Safed Sagar Season 1 information, available qualities, languages and other details.",
+
+        genre: "Action",
+
+        year: "2026",
+
+        status: "Released",
+
+        versions: [
+
+            {
+                quality: "Hindi",
+                resolution: "480p",
+                size: "1.1GB",
+                link: "https://shrtslug.biz/OperationSafedSagar480p"
+            },
+
+            {
+                quality: "Hindi",
+                resolution: "720p",
+                size: "3.3GB",
+                link: "https://shrtslug.biz/OperationSafedSagar720p"
+            },
+
+            {
+                quality: "Hindi",
+                resolution: "1080p",
+                size: "7.6GB",
+                link: "https://shrtslug.biz/OperationSafedSagar1080p"
+            },
+
+            {
+                quality: "Hindi",
+                resolution: "1080p HQ",
+                size: "17.8GB",
+                link: "https://shrtslug.biz/OperationSafedSagar1080pHQ"
+            }
+
+        ]
+
+    },
+
     "house-of-the-dragon-season-3": {
 
         title: "House Of The Dragon Season 3",
