@@ -264,12 +264,12 @@ const movies = {
 
     },
 
-    "indias-got-latent": {
+    "indias-got-latent-bonus-episodes": {
 
-        title: "Indias got Latent",
+        title: "Indias got Latent Bonus Episodes",
 
         image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dECrkUxrY9yCFFIHiEF8htbGyRxqp-Xpn5qZZM5F8Q&s=10",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfVGmiJx70540NfTYQWny41mv4g8a88mI-aZ68GmXM5Q&s=10",
 
         description:
             "Information, updates and details about Indias got latent",
@@ -283,11 +283,17 @@ const movies = {
         versions: [
 
             {
-                quality: "Multi Audio with EngSubs",
-                resolution: "480p",
+                quality: "Bonus Episode 1",
+                resolution: "720p",
                 size: "350MB",
                 link: "https://shrtslug.biz/IndiasGotLatentBonus1"
             },
+            {
+                quality: "Bonus Episode 2",
+                resolution: "720p",
+                size: "350MB",
+                link: "https://shrtslug.biz/IGLBE2"
+            }
             
         ]
 
