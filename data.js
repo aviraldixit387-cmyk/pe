@@ -1,4 +1,5 @@
 const items=[
+{id:'reacher-season-4',title:"Reacher Season 4",image:'https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg',description:"Information and updates about Reacher season 4.",genre:'Action',year:'2026',status:'Available'},
 {id:'indias-got-latent-bonus-episodes',title:"India's Got Latent Bonus Episodes",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfVGmiJx70540NfTYQWny41mv4g8a88mI-aZ68GmXM5Q&s=10',description:"Information and updates about India's Got Latent.",genre:'Comedy',year:'2026',status:'Available'},
 {id:'house-of-the-dragon-season-3',title:'House Of The Dragon Season 3',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA15WGf9egvGCjixtcn5LqrdGaf9auAHiWLBbkfxmk4w&s=10',description:'Explore information, updates and details about House Of The Dragon.',genre:'Action / Drama',year:'2026',status:'Available'},
 {id:'operation-safed-sagar',title:'Operation Safed Sagar Season 1',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvdg-E3G5s5ZvuZWwbHo12JgknAXTm9ojVrvgQizzVZA&s',description:'Explore information, updates and details about Operation Safed Sagar.',genre:'Action',year:'2026',status:'Available'},
