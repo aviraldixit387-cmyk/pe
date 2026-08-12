@@ -1,5 +1,46 @@
 const movies = {
 
+    "reacher-season-4": {
+
+        title: "Reacher Season 4",
+
+        image:
+            "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+
+        description:
+            "Reacher Season 4 movie information, available qualities, languages and other details.",
+
+        genre: "Action",
+
+        year: "2026",
+
+        status: "Released",
+
+        versions: [
+
+            {
+                quality: "Episode 1 (English and Hindi)",
+                resolution: "720p",
+                size: "450MB",
+                link: "https://shrtslug.biz/ReacherS4E1"
+            },
+            {
+                quality: "Episode 2 (English and Hindi)",
+                resolution: "720p",
+                size: "440MB",
+                link: "https://shrtslug.biz/ReacherS4E2"
+            },
+            {
+                quality: "Episode 3 (English and Hindi)",
+                resolution: "720p",
+                size: "430MB",
+                link: "https://shrtslug.biz/ReacherS4E3"
+            },
+
+        ]
+
+    },
+
     "dc": {
 
         title: "DC (2026)",
