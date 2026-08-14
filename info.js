@@ -1,5 +1,53 @@
 const movies = {
 
+     "awarapan-2": {
+
+        title: "Awarapan 2",
+
+        image:
+            "https://image.tmdb.org/t/p/w500/l1rC9HMKvnKooIPVfNVN2Oukzx6.jpg",
+
+        description:
+            "Awarapan 2 movie information, available qualities, languages and other details.",
+
+        genre: "Action",
+
+        year: "2026",
+
+        status: "Released",
+
+        versions: [
+
+            {
+                quality: "Hindi",
+                resolution: "480p",
+                size: "460MB",
+                link: "https://shrtslug.biz/Awarapan2480p"
+            },
+            {
+                quality: "Hindi",
+                resolution: "720p",
+                size: "1.1GB",
+                link: "https://shrtslug.biz/Awarapan2720p"
+            },
+            {
+                quality: "Hindi",
+                resolution: "1080p",
+                size: "2.6GB",
+                link: "https://shrtslug.biz/Awarapan21080p"
+            },
+            {
+                quality: "Hindi",
+                resolution: "1080pHQ",
+                size: "13.6GB",
+                link: "https://shrtslug.biz/Awarapan21080pHQ"
+            },
+
+        ]
+
+    },
+
+
     "reacher-season-4": {
 
         title: "Reacher Season 4",
