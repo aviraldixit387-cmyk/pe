@@ -1,5 +1,161 @@
 const movies = {
 
+     "the-traitors-season-2": {
+
+        title: "The Traitors Season 2",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD8W1ILsYnk33WYWxpK6jbNl3aATCRQbAamCUPvcYhHQ&s=10",
+
+        description:
+            "The Traitors Season 2 movie information, available qualities, languages and other details.",
+
+        genre: "Reality Show",
+
+        year: "2026",
+
+        status: "Released",
+
+        versions: [
+
+            {
+                quality: "Episode 1",
+                resolution: "720p",
+                size: "690MB",
+                link: "https://shrtslug.biz/TheTraitorsS2E1"
+            },
+            {
+                quality: "Episode 2",
+                resolution: "720p",
+                size: "690MB",
+                link: "https://shrtslug.biz/TheTraitorsS2E2"
+            },
+            {
+                quality: "Episode 3",
+                resolution: "720p",
+                size: "690MB",
+                link: "https://shrtslug.biz/TheTraitorsS2E3"
+            },
+        ]
+
+    },
+
+
+
+     "the-kapil-sharma-show-season-4": {
+
+        title: "The Kapil Sharma Show Season 4",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKQrpEV2r2t8iaEfvOB6JsQeZAbpL84LmigCJvTX9u-w&s=10",
+
+        description:
+            "The Kapil Sharma Show Season 4 movie information, available qualities, languages and other details.",
+
+        genre: "Comedy",
+
+        year: "2026",
+
+        status: "Released",
+
+        versions: [
+
+            {
+                quality: "Episode 1",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E1"
+            },
+            {
+                quality: "Episode 2",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E2"
+            },
+            {
+                quality: "Episode 3",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E3"
+            },
+            {
+                quality: "Episode 4",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E4"
+            },
+            {
+                quality: "Episode 5",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E5"
+            },
+            {
+                quality: "Episode 6",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E6"
+            },
+            {
+                quality: "Episode 7",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E7"
+            },
+            {
+                quality: "Episode 8",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E8"
+            },
+            {
+                quality: "Episode 9",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E9"
+            },
+            {
+                quality: "Episode 10",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E10"
+            },
+            {
+                quality: "Episode 11",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E11"
+            },
+            {
+                quality: "Episode 12",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E12"
+            },
+            {
+                quality: "Episode 13",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E13"
+            },
+            {
+                quality: "Episode 14",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E14"
+            },
+            {
+                quality: "Episode 15",
+                resolution: "720p",
+                size: "710MB",
+                link: "https://shrtslug.biz/TheKapilSharmaShowS4E15"
+            },
+            
+
+        ]
+
+    },
+
      "awarapan-2": {
 
         title: "Awarapan 2",
