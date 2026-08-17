@@ -1,5 +1,34 @@
 const movies = {
 
+     "lanterns-season-1": {
+
+        title: "Lanterns Season 1",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn_je-t7XazyJ95Y2qhSm3Riea5msg-sdvs7iarmHEcg&s=10",
+
+        description:
+            "Lanterns Season 1 movie information, available qualities, languages and other details.",
+
+        genre: "Si-Fi",
+
+        year: "2026",
+
+        status: "Released",
+
+        versions: [
+
+            {
+                quality: "Episode 1",
+                resolution: "1080p",
+                size: "540MB",
+                link: "https://shrtslug.biz/LanternsS1E1"
+            },
+        ]
+
+    },
+
+
      "the-traitors-season-2": {
 
         title: "The Traitors Season 2",
