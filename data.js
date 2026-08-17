@@ -1,4 +1,5 @@
 const items=[
+{id:'lanterns-season-1',title:"Lanterns Season 1",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn_je-t7XazyJ95Y2qhSm3Riea5msg-sdvs7iarmHEcg&s=10',description:"Information and updates about Lanterns Season 1.",genre:'Si-Fi',year:'2026',status:'Available'},
 {id:'the-kapil-sharma-show-season-4',title:"The Kapil Sharma Show Season 4",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKQrpEV2r2t8iaEfvOB6JsQeZAbpL84LmigCJvTX9u-w&s=10',description:"Information and updates about The Kapil Sharma Show Season 4.",genre:'Comedy',year:'2026',status:'Available'},
 {id:'the-traitors-season-2',title:"The Traitors Season 2",image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD8W1ILsYnk33WYWxpK6jbNl3aATCRQbAamCUPvcYhHQ&s=10',description:"Information and updates about The Traiyors Season 2.",genre:'Reality Show',year:'2026',status:'Available'},
 {id:'awarapan-2',title:"Awarapan 2",image:'https://image.tmdb.org/t/p/w500/l1rC9HMKvnKooIPVfNVN2Oukzx6.jpg',description:"Information and updates about Awarapan 2.",genre:'Action',year:'2026',status:'Available'},
