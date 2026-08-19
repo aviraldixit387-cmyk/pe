@@ -21,7 +21,7 @@ const movies = {
             {
                 quality: "Episode 1",
                 resolution: "1080p",
-                size: "540MB",
+                size: "544MB",
                 link: "https://shrtslug.biz/LanternsS1E01"
             },
         ]
