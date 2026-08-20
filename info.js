@@ -49,21 +49,39 @@ const movies = {
 
             {
                 quality: "Episode 1",
-                resolution: "720p",
+                resolution: "1080p",
                 size: "690MB",
                 link: "https://shrtslug.biz/TheTraitorsS2E1"
             },
             {
                 quality: "Episode 2",
-                resolution: "720p",
+                resolution: "1080p",
                 size: "690MB",
                 link: "https://shrtslug.biz/TheTraitorsS2E2"
             },
             {
                 quality: "Episode 3",
-                resolution: "720p",
+                resolution: "1080p",
                 size: "690MB",
                 link: "https://shrtslug.biz/TheTraitorsS2E3"
+            },
+            {
+                quality: "Episode 4",
+                resolution: "1080p",
+                size: "690MB",
+                link: "https://shrtslug.biz/TheTraitorsS2E4"
+            },
+            {
+                quality: "Episode 5",
+                resolution: "1080p",
+                size: "1.1GB",
+                link: "https://shrtslug.biz/TheTraitorsS2E5"
+            },
+            {
+                quality: "Episode 6",
+                resolution: "1080p",
+                size: "445MB",
+                link: "https://shrtslug.biz/TheTraitorsS2E6"
             },
         ]
 
