@@ -1,5 +1,51 @@
 const movies = {
 
+     "insidious-out-of-the-further": {
+
+        title: "Insidious: Out of the Further",
+
+        image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtpjbmt88niBuL6IupldxmGLUSAmvwXFWR8JO8_oDNXg&s=10",
+
+        description:
+            "Insidious: Out of the Further movie information, available qualities, languages and other details.",
+
+        genre: "Horror / Thriller",
+
+        year: "2026",
+
+        status: "Released",
+
+        versions: [
+
+            {
+                quality: "Hindi-English-Tamil",
+                resolution: "480p",
+                size: "445MB",
+                link: "https://shrtslug.biz/Insidious2026480p"
+            },
+            {
+                quality: "Hindi-English-Tamil",
+                resolution: "720p",
+                size: "1GB",
+                link: "https://shrtslug.biz/Insidious2026720p"
+            },
+            {
+                quality: "Hindi-English-Tamil",
+                resolution: "1080p",
+                size: "2.3GB",
+                link: "https://shrtslug.biz/Insidious20261080p"
+            },
+            {
+                quality: "Hindi-English-Tamil",
+                resolution: "1080pHQ",
+                size: "13GB",
+                link: "https://shrtslug.biz/Insidious20261080pHQ"
+            },
+        ]
+
+    },
+     
      "lanterns-season-1": {
 
         title: "Lanterns Season 1",
